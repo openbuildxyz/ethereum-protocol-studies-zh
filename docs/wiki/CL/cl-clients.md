@@ -1,3 +1,3 @@
-# Consensus Layer Implementations
+# 共识层实现
 
-Resources covering all consensus client implementations, in production or development. Overview of client unique features of each client, architecture, guides and resources. 
+涵盖生产或开发中所有共识客户端实施的资源。概述每个客户端的客户端独特功能、架构、指南和资源。

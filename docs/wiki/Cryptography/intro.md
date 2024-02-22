@@ -1,5 +1,8 @@
-# Cryptography
+# 密码学
 
-Cryptography researchers craft the weapons or implements of change that developers use. They use advanced algebra to exploit the hard limits set by the universe on reality and craft cryptographic schemas that obey certain properties. They are in a sense reality-hackers. They hack reality to create systems that obey objective properties due to the underlying mathematics. 
+密码学研究人员精心打造开发人员使用的变革武器或工具。
+他们使用先进的代数来利用宇宙对现实设定的硬性限制，并设计遵守某些属性的密码模式。
+从某种意义上说，他们是现实黑客。
+他们破解现实，创建遵循基础数学客观属性的系统。
 
 https://summerofprotocols.com/wp-content/uploads/2023/12/53-BEIKO-001-2023-12-13.pdf

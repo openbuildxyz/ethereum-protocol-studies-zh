@@ -1,74 +1,74 @@
-- [Home](readme.md)
-- **Study Group**
-- [EPFsg overview](/eps/intro.md)
-- Schedule
-  - [Week 0](/eps/week0.md)
-  - [Week 1](/eps/week1.md)
-- [Contributing](contributing.md)
-- **Protocol Wiki**
-- The Protocol
-  - [Overview](/wiki/protocol/overview.md)
-  - [History](/wiki/protocol/history.md)
-  - [Coordination](/wiki/protocol/pm.md)
-  - [CS Resources]
-- Execution Layer
-  - [EL Clients](/wiki/EL/el-clients.md)
-  - [EL Specs](/wiki/EL/el-specs.md)
-  - Client architecture
-  - [EVM]
-  - [Transaction]
-  - [DevP2P]
+- [主页](readme.md)
+- **学习组**
+- [EPFsg 概述](/eps/intro.md)
+- 日程
+  - [第 0 周](/eps/week0.md)
+  - [第 1 周](/eps/week1.md)
+- [贡献](contributing.md)
+- **维基协议**
+- 协议
+  - [概述](/wiki/protocol/overview.md)
+  - [历史](/wiki/protocol/history.md)
+  - [协调](/wiki/protocol/pm.md)
+  - [CS资源]
+- 执行层
+  - [EL 客户端](/wiki/EL/el-clients.md)
+  - [EL 规格](/wiki/EL/el-specs.md)
+  - 客户端架构
+  - [评估值]
+  - [交易]
+  - [开发P2P]
   - [MPT]
   - [JSON-RPC]
-- Consensus Layer
-  - [CL Clients](/wiki/CL/cl-clients.md)
-  - [CL Specs](/wiki/CL/cl-specs.md)
-  - [Proof-of-Stake]
-  - [Beacon API]
+- 共识层
+  - [CL 客户端](/wiki/CL/cl-clients.md)
+  - [CL 规格](/wiki/CL/cl-specs.md)
+  - [权益证明]
+  - [信标API]
   - [libp2p]
-  - Client architecture
-- Development
-  - [Core development](/wiki/dev/core.md)
-  - [Network upgrades](/wiki/dev/upgrades.md)
-- Testing and security
-  - [Testing overview](/wiki/testing/overview.md)
-  - [Incidents](/wiki/testing/incidents.md)
-  - [hive](/wiki/testing/hive.md)
-  - Formal Verification
-- Research
-  - [Roadmap overview](/wiki/research/roadmap.md)
-  - Scaling
-    - Blobs
-    - Sharding
-    - Statelessness
-    - Purge
+  - 客户端架构
+- 开发
+  - [核心开发](/wiki/dev/core.md)
+  - [网络升级](/wiki/dev/upgrades.md)
+- 测试和安全
+  - [测试概述](/wiki/testing/overview.md)
+  - [事件](/wiki/testing/incidents.md)
+  - [蜂巢(hive)](/wiki/testing/hive.md)
+  - 形式验证
+- 研究
+  - [路线图概述](/wiki/research/roadmap.md)
+  - 缩放
+    - 斑点
+    - 分片
+    - 无状态
+    - 清除
   - MEV
-    - PBS
-    - Censorship
-  - Proof of Stake
-    - Upgrades
+    - 公共广播
+    - 审查制度
+  - 权益证明
+    - 升级
     - SSF
     - SSLE
-  - [Light Clients](/wiki/research/light-clients.md)
-  - Privacy
+  - [显式客户端(Light Clients)](/wiki/research/light-clients.md)
+  - 隐私
   - AA
   - ASE
   - EOF
-  - Portal Network
-- Cryptography
-  - Eliptic curves
+  - 门户网
+- 密码学
+  - 椭圆曲线
     - ECDSA
     - BLS
-  - [Commitments]
-    - Polynomials
-    - Commitment schemes
+  - [承诺]
+    - 多项式
+    - 承诺计划
   - ZK
-- [Protocol Fellowship](/wiki/epf.md)
+- [协议奖学金](/wiki/epf.md)
 
-- **Wiki Info**
-  - [GitHub Repository](https://github.com/eth-protocol-fellows/protocol-studies)
+- **维基信息**
+  - [GitHub](https://github.com/eth-protocol-fellows/protocol-studies)
 
 
 <form action="https://eth-protocol-fellows.github.io/protocol-studies/#/eps/intro" target="_blank">
-  <input type="submit" value="Join the protocol" style="cursor: pointer;margin-top:12px;padding:8px;background-color:#FFFFFF;border:1px solid #0374B5;border-radius:.25rem;color:#0374B5;display:inline-block;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;" />
+  <input type="submit" value="加入协议" style="cursor: pointer;margin-top:12px;padding:8px;background-color:#FFFFFF;border:1px solid #0374B5;border-radius:.25rem;color:#0374B5;display:inline-block;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;" />
 </form>

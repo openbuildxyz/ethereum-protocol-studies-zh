@@ -1,5 +1,5 @@
-# Execution Layer Implementations
+# 执行层实现
 
-Resources covering all current and historical execution clients. Overview of client unique features of each client, architecture, guides and resources. 
+涵盖所有当前和历史执行客户的资源。概述每个客户端的客户端独特功能、架构、指南和资源。
 
 https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture

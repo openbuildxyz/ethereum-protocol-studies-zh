@@ -1,20 +1,20 @@
-# Welcome to the protocol
+# 欢迎来到协议
 
-The protocol wiki is a collection of technical resources about the Ethereum protocol. This includes information about the core protocol theory, client development and ongoing research. It's not intented for smart contract or other high level development. 
+协议维基是有关以太坊协议的技术资源的集合。这包括有关核心协议理论、客户端开发和正在进行的研究的信息。它不适用于智能合约或其他高级开发。 
 
-> :warning: Protocol Wiki is under contruction, [join us](/eps/intro.md) and [contribute](contributing.md). 
+> :警告：协议 Wiki 正在建设中， [加入](/eps/intro.md)我们并做出[贡献](contributing.md)。 
 
 ![](https://raw.githubusercontent.com/eth-protocol-fellows/protocol-studies/wiki-pages/docs/images/epfsg_hero.jpg)
 
-## Protocol Studies
+## 协议学习
 
-Ethereum Protocol Fellowship Study Group (EPSsg) is an open study program for anyone interested in learning about internals of the protocol. 
+以太坊协议研究员研究小组（EPSsg）是一个开放的研究计划，适合任何有兴趣了解协议内部结构的人。 
 
-Learn more about EPS in its [announcement blog](https://blog.ethereum.org/2024/02/07/epf-study-group). Join the community in our [Discord server](https://discord.gg/epfsg).
+ [在其公告博客](https://blog.ethereum.org/2024/02/07/epf-study-group). 中了解有关 EPS 的更多信息。加入我们的 [Discord server](https://discord.gg/epfsg).
 
-## Contributing
+## 贡献
 
-Protocol Wiki is a collaborative effort of Ethereum community. Take the opportunity to learn in EPS, collect resources and add them to the wiki. 
+协议 Wiki 是以太坊社区的共同努力。借此机会在 EPS 中学习，收集资源并将其添加到 wiki。 
 
-> ### Start here
-> * Are you a student or an aspiring core developer? Start learning about the [Ethereum protocol](eps/intro.md).
+> ### 从这里开始
+> * 您是学生还是有抱负的核心开发人员？开始学习[Ethereum protocol](eps/intro.md)。
