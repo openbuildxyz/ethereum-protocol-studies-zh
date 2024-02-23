@@ -1,125 +1,133 @@
-# Week 1
+# 学习小组 第1周 | 协议介绍
 
-The first week of the study group is dedicated to a general introduction to the protocol and R&D ecosystem. 
+学习小组的第一周致力于介绍协议和研发生态。
 
-Come to see the presentation by Mário Havel on [Thursday, February 22, 7AM UTC](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/feb-22-2024/7am). *This talk will be conducted again in the same format as before*. We encourage you to join the talk if you haven't seen it already on Monday or if you are in easter time zones. The link to stream will be provided here and in [Discord group](https://discord.gg/epfsg). 
+## 录像
 
-## Pre-reading
+观看 Mario Havel 在 StreamEth 上的 *以太坊协议101* 演讲。[幻灯片](https://github.com/eth-protocol-fellows/protocol-studies/tree/main/docs/eps/presentations/week1_protocol_intro.pdf)
 
-This is an introductory talk which doesn't assume a lot of prior knowledge. Check some general requirements in [week 0](week0.md). Here are few more introductory materials to get you started:
-- [Inevitable Ethereum - World Computer](https://inevitableeth.com/home/ethereum/world-computer)
-- [Ethereum in 30 minutes](https://www.youtube.com/watch?v=UihMqcj-cqc)
-- [Ethereum.org docs](https://ethereum.org/what-is-ethereum)
+[录像](https://streameth.org/embed/?playbackId=9bc1ekw2jk5sz6c7&vod=true&streamId=&playerName=Intro+to+Ethereum+%7C+Mario+Havel+%7C+Week+1 ':include :type=iframe width=100% height=520 frameborder="0" allow="fullscreen" allowfullscreen')
 
-Check out resources within the following text and additional reading. All resources will be explained in the week 1 presentation.
+要查看演讲期间的讨论存档，请查看[Discord 服务器](https://discord.gg/epfsg)的 `#study-group` 频道中的相应线程。
 
-## Prehistory and Philosophy
+## 预先阅读
 
-To understand Ethereum design, we need to learn about predecessors and the culture it builds upon. The modern cryptocurrency ecosystem stands on decades of work by computer scientists, cryptographers and activists. 
+这是一个介绍性的演讲，不需要太多先前的知识。在[第0周](/eps/week0.md)检查一些一般要求。以下是一些更多的入门材料，以帮助您入门：
+- [Inevitable Ethereum - 世界计算机](https://inevitableeth.com/home/ethereum/world-computer)
+- [30分钟理解以太坊](https://www.youtube.com/watch?v=UihMqcj-cqc)
+- [Ethereum.org 文档](https://ethereum.org/what-is-ethereum)
 
-Starting all the way back in the 1960s, UNIX is an operating system and philosophy that redefined the entire paradigm of computation. This is the paradigm we have been using for over 50 years and has never really changed. Its fundamental concept of modularity is important to Ethereum design and open collaborative environment of Bell Labs is similar to Ethereum core development today. 
+查看以下文本和额外阅读中的资源。所有资源将在第1周的演示中进行解释。
 
-> Check this documentary with Dennis Ritchie and Ken Thompson, which perfectly captures spirit and ideas behind UNIX: https://yewtu.be/watch?v=tc4ROCJYbm0
+## 历史与哲学
 
-The Free Software movement is fundamental to Ethereum and all cryptocurrencies. The open, independent and collaborative development culture of Ethereum is strongly rooted in FOSS (Free and Open Source Software). Ethereum needs to be transparently implemented in software that gives full freedom to its users. Using any FOSS can empower every user and developer, but it's necessary for security, neutrality and trustless nature of Ethereum. 
+要理解以太坊的设计，我们需要了解前辈和它所建立的文化。现代加密货币生态系统建立在几十年来计算机科学家、密码学家和活动家的工作之上。
 
-> To understand its importance, watch this talk by Richard Stallman, the founder of Free Software and GNU project:
-> - https://yewtu.be/watch?v=Ag1AKIl_2GM
-> - More reading: https://www.gnu.org/philosophy/free-sw.html, *The Cathedral and the Bazaar* book: http://www.catb.org/~esr/writings/cathedral-bazaar/
+从上世纪60年代开始，UNIX 是一种重新定义了整个计算范式的操作系统和哲学。这是我们使用了50多年的范式，从未真正改变过。其模块化的基本概念对以太坊的设计以及贝尔实验室的开放协作环境非常重要，而后者类似于今天的以太坊核心开发。
 
-The invention of [asymmetric cryptography](https://www-ee.stanford.edu/~hellman/publications/24.pdf) marks the birth of a new paradigm for cryptography applications. Later, the rise of cryptography in computation for general public enabled everyone to utilize tools for digital privacy, secure communication and fundamentally transformed cybersecurity. While nation states did not have a framework for these new concepts, [Crypto Wars](https://en.wikipedia.org/wiki/Crypto_Wars) resulted in activist movements advocating and building cryptography tools. Ultimately, these were people inventing tools and ideas which became fundamental building blocks of modern cryptocurrencies. 
+> 观看这部由丹尼斯·里奇和肯·汤普逊主演的纪录片，完美地捕捉了 UNIX 背后的精神和思想：[https://yewtu.be/watch?v=tc4ROCJYbm0](https://yewtu.be/watch?v=tc4ROCJYbm0)
 
-> Get inspiration from early Cypherpunks who envisioned an independent digital realm built on trustless and borderless technologies:
-> - https://activism.net/cypherpunk/manifesto.html
-> - https://activism.net/cypherpunk/crypto-anarchy.html
-> - https://www.eff.org/cyberspace-independence
+自由软件运动对以太坊和所有加密货币都至关重要。以太坊的开放、独立和协作开发文化在自由软件和开源软件中深深扎根。以太坊需要以给予其用户完全自由的软件进行透明实现。使用任何自由软件都可以赋予每个用户和开发人员权力，但对以太坊的安全性、中立性和无信任性来说，这是必要的。
 
-## Ethereum Protocol Design 
+> 要了解其重要性，请观看自由软件和 GNU 项目的创始人理查德·斯托曼的演讲：
+> - [https://yewtu.be/watch?v=Ag1AKIl_2GM](https://yewtu.be/watch?v=Ag1AKIl_2GM)
+> - 更多阅读：[https://www.gnu.org/philosophy/free-sw.html](https://www.gnu.org/philosophy/free-sw.html)，*大教堂和集市* 一书：[http://www.catb.org/~esr/writings/cathedral-bazaar/](http://www.catb.org/~esr/writings/cathedral-bazaar/)
 
-Originally outlined in its [Whitepaper](https://ethereum.org/whitepaper#ethereum-whitepaper), Ethereum draws inspiration from Bitcoin and its background (explained above) to create a general blockchain based computation platform. The design was technically specified in [Yellowpaper](https://ethereum.github.io/yellowpaper/paper.pdf) and evolved over time. Changes are tracked in the community process of [EIPs](https://eips.ethereum.org) and current specification is implemented in Python as: 
+[非对称加密](https://www-ee.stanford.edu/~hellman/publications/24.pdf) 的发明标志着密码学应用的新范式的诞生。随后，密码学在普通公众的计算中的崛起使每个人都能够利用工具进行数字隐私、安全通信，并从根本上改变了网络安全。尽管国家并没有为这些新概念制定框架，但[密码战争](https://en.wikipedia.org/wiki/Crypto_Wars)导致了倡导和构建密码学工具的活动家运动。最终，这些人发明了成为现代加密货币基本构建模块的工具和思想。
 
-- [Execution specs](https://github.com/ethereum/execution-specs)
-- [Consensus specs](https://github.com/ethereum/consensus-specs)
+> 从早期的 CipherPunks 获得灵感，他们构想了一个建立在无信任和无国界技术上的独立数字领域：
+> - [https://activism.net/cypherpunk/manifesto.html](https://activism.net/cypherpunk/manifesto.html)
+> - [https://activism.net/cypherpunk/crypto-anarchy.html](https://activism.net/cypherpunk/crypto-anarchy.html)
+> - [https://www.eff.org/cyberspace-independence](https://www.eff.org/cyberspace-independence)
 
-The specification is purely technical and doesn't provide any context or explanation for the reader. For learning about the consensus, check the annotated version [by Ben](https://eth2book.info/capella/annotated-spec/) and [by V](https://github.com/ethereum/annotated-spec). 
+## 以太坊协议设计
 
-The protocol changes over time, with each network upgrade bringing new improvements. Despite its constant changes, the architecture evolution reflects certain fundamental principles. These can be summarized as follows: 
+最初在其[白皮书](https://ethereum.org/whitepaper#ethereum-whitepaper)中概述，以太坊从比特币及其上文（上文已解释）中汲取灵感，创建了一个基于区块链的通用计算平台。该设计在[黄皮书](https://ethereum.github.io/yellowpaper/paper.pdf)中进行了技术规定，并随着时间的推移不断发展。变更在[EIPs](https://eips.ethereum.org)的社区过程中进行跟
 
-- Simplicity, Universality, Modularity, Non-discrimination, Agility
+踪，当前规范在 Python 中实现为：
 
-These core tenets have always led the Ethereum development and should be considered with every decision on design change. In addition to this, it manages growing complexity by encapsulating it and/or sandwiching it. The current network architecture is the result of many iterations of [network upgrade history](https://ethereum.org/history).
+- [执行规范](https://github.com/ethereum/execution-specs)
+- [共识规范](https://github.com/ethereum/consensus-specs)
 
-> Read more about Ethereum design principles in [the archive](https://web.archive.org/web/20220815014507mp_/https://ethereumbuilders.gitbooks.io/guide/content/en/design_philosophy.html) and consider rewriting it for [this wiki](/wiki/protocol/design-rationale.md)
+该规范纯粹是技术性的，不为读者提供任何背景或解释。要了解共识，请查看[由 Ben 注释的版本](https://eth2book.info/capella/annotated-spec/)和[由 V 注释的版本](https://github.com/ethereum/annotated-spec)。
 
-Ethereum network leverage decentralization to become permissionless, credible neutral and censorship resistant. It continues evolving to address the latest research, new and always present challenges. To maintain security and decentralization, blockchain technology has certain limits, mainly its scalability. Because Ethereum needs to always adhere to its principles, it motivates us to find clever for these problems rather than accepting trade-offs. 
+随着时间的推移，协议会发生变化，每次网络升级都会带来新的改进。尽管它不断变化，但架构演变反映了某些基本原则。这些原则可以总结如下：
 
-The current research and development is summarized by the [roadmap](https://twitter.com/VitalikButerin/status/1741190491578810445/photo/1) overview, however cannot be fully accurate. There is no single path for Ethereum R&D, the [roadmap](https://ethroadmap.com/) only sums up its current landscape. The core ecosystem is an always growing [infinite garden](https://ethereum.foundation/infinitegarden). However, with more and more progress, Ethereum might slowly approach its ossification. 
+- 简单性、普适性、模块化、非歧视性、灵活性
 
-> Simplified overview of the current Ethereum design can be found documentation on [node architecture](https://ethereum.org/developers/docs/nodes-and-clients/node-architecture) and in the week 1 presentation
+这些核心原则一直引导着以太坊的发展，并且在设计变更的每个决定中都应予以考虑。除此之外，它通过封装和/或夹层化来管理不断增长的复杂性。当前的网络架构是许多[网络升级历史](https://ethereum.org/history)的迭代结果。
 
-As hinted above, the main high level components of Ethereum are execution and consensus layer. These are 2 networks which are connected and dependent on each other. Execution layer provides the execution engine, handles user transaction and all state (address, contract data) while consensus implements the proof-of-stake mechanism ensuring security and [fault tolerance](https://inevitableeth.com/home/concepts/bft).
+> 在[存档](https://web.archive.org/web/20220815014507mp_/https://ethereumbuilders.gitbooks.io/guide/content/en/design_philosophy.html)中阅读更多有关以太坊设计原则的内容，并考虑将其重写为[此维基](/wiki/protocol/design-rationale.md)。
 
-## Implementations and Development
+以太坊网络利用去中心化成为无需许可、可信中立和抗审查的。它不断发展以应对最新的研究和新的、始终存在的挑战。为了保持安全性和去中心化，区块链技术有一定的限制，主要是可扩展性。因为以太坊需要始终遵循其原则，这激励我们找到巧妙的方法解决这些问题，而不是接受权衡。
 
-Everything mentioned above - the ideas, design and specifications comes down to the actual application here, in its implementation. An implementation of the execution layer (EL) or consensus layer (CL) is called a *client*. A computer running this client and connecting to the network is called a *node*. A node is therefore a pair of EL and CL clients actively participating in the network. 
+[路线图](https://twitter.com/VitalikButerin/status/1741190491578810445/photo/1)概述了当前的研究和开发，但可能不完全准确。以太坊研发没有单一路径，[路线图](https://ethroadmap.com/)只总结了其当前的格局。核心生态系统是一个不断增长的[无限花园](https://ethereum.foundation/infinitegarden)。然而，随着越来越多的进展，以太坊可能会逐渐走向其固化。
 
-Since Ethereum is formally specified, it can be implemented in different ways in any language. This results in a variety of implementations throughout the years with some already deprecated and some just being developed. The current list of production ready implementations can be found in the [docs on Nodes and clients](https://ethereum.org/en/developers/docs/nodes-and-clients#execution-clients) and week 1 presentation. 
+> 可在[节点架构](https://ethereum.org/developers/docs/nodes-and-clients/node-architecture)的文档和第1周的演示中找到当前以太坊设计的简化概述。
 
-> This strategy is called [client diversity](https://ethereum.org/developers/docs/nodes-and-clients/client-diversity). Ethereum does not rely on a single 'official' implementation but users can choose any client and be sure it does the job. If an issue occurs within a single client implementation, it doesn't affect the rest of the network. 
+如上所示，以太坊的主要高层组件是执行层和共识层。这是两个相互连接且相互依赖的网络。执行层提供执行引擎，处理用户交易和所有状态（地址、合约数据），而共识则实现了保证安全性和[容错](https://inevitableeth.com/home/concepts/bft)的权益证明机制。
 
-### Testing
+## 实现和开发
 
-With regular changes and multiple client implementations, testing is fundamental to the network security. There are a variety of testing tools and scenarios which are all heavily utilized before any network upgrade. 
+上述的所有想法、设计和规范最终都落实到这里的实际应用中。执行层（EL）或共识层（CL）的实现称为 *客户端*。运行此客户端并连接到网络的计算机称为 *节点*。因此，一个节点是一对 EL 和 CL 客户端，它们积极参与网络。
 
-Tests are generated based on specifications and create various scenarios. Some are testing clients individually, some are simulating a testnet with all client pairs. There are different testing tools used for different parts of development cycles and parts of clients. This includes state transition testing, fuzzing, shadow forks, RPC tests, client unit tests and CI/CD, etc. 
+由于以太坊已经得到正式规定，因此可以以任何语言的不同方式实现。这导致多年来出现了各种实现，其中一些已经过时，一些正在开发中。当前的生产就绪实现列表可以在[节点和客户端文档](https://ethereum.org/en/developers/docs/nodes-and-clients#execution-clients)和第1周的演示中找到。
 
-> Here is a short list of repositories dedicated to testing: 
-> - https://github.com/ethereum/tests
-> - https://github.com/ethereum/retesteth
-> - https://github.com/ethereum/execution-spec-tests
-> - https://github.com/ethereum/hive
-> - https://github.com/kurtosis-tech/kurtosis
-> - https://github.com/MariusVanDerWijden/FuzzyVM
-> - https://github.com/lightclient/rpctestgen
+> 这种策略称为[客户端多样性](https://ethereum.org/developers/docs/nodes-and-clients/client-diversity)。以太坊不依赖于单一的“官方”实现，但用户可以选择任何客户端并确信它能够完成工作。如果在单个客户端实现中发生问题，它不会影响网络的其余部分。
 
-### Coordination
+### 测试
 
-The Ethereum development is very different to a traditional, corporate kind of, projects. First of all, it's all open and public, anybody can review it or contribute. And second, there are many different teams working on different parts. All together, there are around 20 different teams from various organizations working on Ethereum. 
+由于经常变更和多个客户端实现，测试对于网络安全至关重要。在任何网络升级之前都会广泛利用各种测试工具和场景。
 
-Unlike in proprietary tech, Ethereum developers are not competing but rather working together. With the complexity always growing, there are basically no people who would be experts in all of Ethereum. Instead, people develop expertise in specific domains and collaborate with others. This is possible thanks to the modularity of Ethereum and allows developers to focus on challenges they personally prefer. 
+测试是根据规范生成的，并创建各种场景。有些是单独测试客户端，有些是模拟具有所有客户端对的测试网络。不同的测试工具用于开发周期的不同部分和客户端的不同部分。这包括状态转换测试、模糊测试、影子分支、RPC 测试、客户端单元测试和 CI/CD 等。
 
-> The traditional development cycle for new features or changes is `Idea - Research - Development - Testing - Adoption`. However, problems might arise at any moment of this cycle resulting in iterating again from the beginning. 
+> 这是一份专门用于测试的存储库的简短列表：
+> - [https://github.com/ethereum/tests](https://github.com/ethereum/tests)
+> - [https://github.com/ethereum/retesteth](https://github.com/ethereum/retesteth)
+> - [https://github.com/ethereum/execution-spec-tests](https://github.com/ethereum/execution-spec-tests)
+> - [https://github.com/ethereum/hive](https://github.com/ethereum/hive)
+> - [https://github.com/kurtosis-tech/kurtosis](https://github.com/kurtosis-tech/kurt
 
-To be able to ship network upgrades and agree on the current development focus, there needs to be a certain coordination. All of it is also public and can be followed by anyone interested in learning about the core protocol. The coordination mainly happens via regular calls which are scheduled in the [PM repo](https://github.com/ethereum/pm). There are different kinds of developer calls with the biggest one being All Core Devs (ACD). This is where representatives of all involved teams come to discuss the current development of the consensus or execution layer.
+osis)
+> - [https://github.com/MariusVanDerWijden/FuzzyVM](https://github.com/MariusVanDerWijden/FuzzyVM)
+> - [https://github.com/lightclient/rpctestgen](https://github.com/lightclient/rpctestgen)
 
-The ideas and proposed changes from the community are coordinated using [EIP process](https://eips.ethereum.org/EIPS/eip-1). Additionally, there are a few discussion forums. The biggest one discussing core upgrades is https://ethresear.ch. Another forum which is connected to the EIP process and serves for discussion about specific proposals is [Ethereum Magicians](https://ethereum-magicians.org/). 
-Lots of important discussion is also happening on the R&D Discord server (ping us in EPFsg discord to get an invite) and in client team groups. There are also offsites or workshops where many core developers meet in person to speed up the process face to face. 
+### 协调
 
-## Additional reading and exercises 
+以太坊的开发与传统的企业项目非常不同。首先，它是开放和公开的，任何人都可以查看或贡献。其次，有许多不同的团队致力于不同的部分。总共有大约20个来自各种组织的不同团队在以太坊上工作。
 
-To test your knowledge about the very basics of Ethereum, try a quiz: 
-https://ethereum.org/quizzes
+与专有技术不同，以太坊开发人员并不竞争，而是共同合作。随着复杂性的不断增加，基本上没有人能够精通所有以太坊。相反，人们在特定领域发展专业知识，并与他人合作。这得益于以太坊的模块化，使开发人员可以专注于他们个人更喜欢的挑战。
 
-Learn more about the roadmap: 
-https://ethereum.org/roadmap
+> 新功能或更改的传统开发周期是 `想法 - 研究 - 开发 - 测试 - 采用`。然而，问题可能会在此周期的任何时刻出现，导致从头开始再次迭代。
 
-To explore various parts of the Ethereum protocol, check out what people have been working on within EPF:
-https://github.com/eth-protocol-fellows/cohort-three/tree/master/projects
-https://github.com/eth-protocol-fellows/cohort-four/tree/master/projects
+要能够发布网络升级并就当前开发重点达成一致，需要进行一定的协调。所有这一切也都是公开的，任何对了解核心协议感兴趣的人都可以关注。协调主要通过定期电话会议进行，这些电话会议已在[PM 存储库](https://github.com/ethereum/pm)中安排。有不同类型的开发人员电话，其中最大的电话是 All Core Devs（ACD）。这是各个团队代表讨论共识或执行层当前开发的地方。
 
-[Devcon archive](archive.devcon.org) is full of incredible talks diving into various technical and non-technical aspects of Ethereum.
+社区的想法和提议的变更使用[EIP 过程](https://eips.ethereum.org/EIPS/eip-1)进行协调。此外，还有一些讨论论坛。最大的一个讨论核心升级的是 [ethresear.ch](https://ethresear.ch)。另一个与 EIP 过程相关且用于讨论具体提案的论坛是[Ethereum Magicians](https://ethereum-magicians.org/)。许多重要的讨论也在 R&D Discord 服务器（在 EPFsg Discord 中 @我们以获得邀请）和客户端团队群组中进行。还有举办现场会议或研讨会，许多核心开发人员可以亲自会面，加速面对面的过程。
 
-A [retrospective document](https://notes.ethereum.org/@mikeneuder/rcr2vmsvftv) on recent roadmap by Alex and Mike comes with great insights into Ethereum development, values and goals.
+## 额外阅读和练习
 
-Read more about history of Unix and Bell Labs: 
-https://www.theregister.com/2024/02/16/what_is_unix/
-https://www.deusinmachina.net/p/history-of-unix
+要测试您对以太坊基础知识的了解程度，请尝试一下测验：
+[https://ethereum.org/quizzes](https://ethereum.org/quizzes)
 
-Few more books I recommend: 
+了解更多有关路线图的信息：
+[https://ethereum.org/roadmap](https://ethereum.org/roadmap)
 
-If you are interested in early days of Ethereum, the story of its founders and creation, check out book [The Infinite Machine](https://www.camirusso.com/book). Another similar one is [Out of the Ether](https://www.goodreads.com/book/show/55360267-out-of-the-ether). (ping me for epubs)
+要探索以太坊协议的各个部分，请查看 EPF 中人们正在进行的工作：
+[https://github.com/eth-protocol-fellows/cohort-three/tree/master/projects](https://github.com/eth-protocol-fellows/cohort-three/tree/master/projects)
+[https://github.com/eth-protocol-fellows/cohort-four/tree/master/projects](https://github.com/eth-protocol-fellows/cohort-four/tree/master/projects)
 
-A very recent publication providing a comprehensive insight is [Absolute Essentials of Ethereum](https://www.routledge.com/Absolute-Essentials-of-Ethereum/Dylan-Ennis/p/book/9781032334189). It a covers [variety of topics](https://www.coindesk.com/consensus-magazine/2024/02/07/absolute-essentials-of-ethereum-by-paul-dylan-ennis-an-excerpt/) and I can strongly recommend it. 
+[Devcon 存档](archive.devcon.org)充满了深入探讨以太坊各种技术和非技术方面的令人难以置信的演讲。
 
-[Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) is one of the great blockchain books by aantop covering everything from basics to technical details. It's few years old and already outdated but still can be a good inspiration. 
+Alex 和 Mike 最近对路线图的[回顾性文件](https://notes.ethereum.org/@mikeneuder/rcr2vmsvftv)提供了有关以太坊开发、价值和目标的重要见解。
 
+阅读更多关于 Unix 和贝尔实验室的历史：
+[https://www.theregister.com/2024/02/16/what_is_unix/](https://www.theregister.com/2024/02/16/what_is_unix/)
+[https://www.deusinmachina.net/p/history-of-unix](https://www.deusinmachina.net/p/history-of-unix)
+
+我推荐的几本书：
+
+如果您对以太坊的早期时期、其创始人和创造的故事感兴趣，请查看书籍[The Infinite Machine](https://www.camirusso.com/book)。另一本类似的书是[Out of the Ether](https://www.goodreads.com/book/show/55360267-out-of-the-ether)。 （向我索取 epub 文件）
+
+提供全面洞察力的最新出版物是[以太坊的绝对必要性](https://www.routledge.com/Absolute-Essentials-of-Ethereum/Dylan-Ennis/p/book/9781032334189)。它涵盖了[各种主题](https://www.coindesk.com/consensus-magazine/2024/02/07/absolute-essentials-of-ethereum-by-paul-dylan-ennis-an-excerpt/)，我强烈推荐它。
+
+[精通以太坊](https://github.com/ethereumbook/ethereumbook)是 aantop 撰写的一本伟大的区块链书籍，涵盖了从基础知识到技术细节的所有内容。虽然已经过时，但仍然可以提供很好的启发。

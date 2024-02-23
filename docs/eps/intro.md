@@ -1,72 +1,71 @@
-# EPF Protocol Studies
+# EPF 协议研究
 
-Ethereum Protocol Fellowship Study Group (EPFsg) is a learning community formed to gather knowledge and educate itself about the Ethereum protocol. 
+以太坊协议学者研究小组（EPFsg）是一个学习社区，旨在聚集知识并自我教育有关以太坊协议的内容。
 
-The protocol evolves and grows quickly, it's an always-changing infinite garden. To sustain its credible neutrality, this pace should be reflected in the community as well. Various communities using, building or living on Ethereum need to be able to learn and become involved in the core protocol. The complexity of the architecture, codebases and dynamic development with scattered resources can discourage many talented people from participating on the core level. The protocol study group aims to bridge the gap by introducing a curriculum focused on all parts of the Ethereum stack & roadmap and gathering people interested in diving into it. 
+协议不断发展壮大，是一个不断变化的无限花园。为了维持其可信中立性，社区的步伐也应该与之相称。使用、构建或生活在以太坊上的各种社区需要能够学习并参与到核心协议中去。架构的复杂性、代码库以及分散资源的动态发展可能会阻碍许多有才华的人参与到核心级别上。协议学习小组旨在通过引入以以太坊堆栈和路线图的所有部分为重点的课程，并聚集对此感兴趣的人们，弥合这一差距。
 
-> Check also the announcement blog post https://blog.ethereum.org/2024/02/07/epf-study-group
+> 也请查看公告博客文章：<https://blog.ethereum.org/2024/02/07/epf-study-group>
 
-## Program Structure
+## 程序结构
 
-The program is an open, 10-week study program divided into 2 phases. 
+该计划是一个开放的、为期10周的学习计划，分为两个阶段。
 
-The first half is dedicated to general understanding of the internal mechanisms of the protocol, its architecture and basic concepts. The second half offers 2 different tracks - development and research. Presentations in each track offer a deeper dive into specific topics within the R&D domains.  
+前半部分致力于对协议的内部机制、架构和基本概念进行一般性理解。后半部分提供了两个不同的轨道 - 开发和研究。每个轨道中的演示将对研发领域的特定主题进行更深入的探讨。
 
-Each online session will be led by core developers and researchers, come with pre-meeting reading material to get you familiar with the topic and terminology as well as a post-meeting activity to strengthen and solidify your understanding.
+每个在线会议将由核心开发人员和研究人员主持，提供预会议阅读材料，使您熟悉主题和术语，以及后会议活动，以加强和巩固您的理解。
 
-Weekly topics, their presentations and materials can be all found in this folder. Checkout the study group content in this folder, start with [Week 0](eps/week0.md).
+每周的主题、演示和材料都可以在此文件夹中找到。在这个文件夹中查看学习小组的内容，从[第0周](week0.md)开始。
 
-### Schedule
+### 日程安排
 
-The first part of the program consists of 5 weeks with introductions to high level domains of the protocol. 
+该计划的第一部分包括5周的协议高级领域介绍。
 
-| Date        | Topic                              | Speaker                 |
-|-------------|------------------------------------|-------------------------|
-| February 19 | Intro to EPS and Ethereum protocol | Josh Davis, Mario Havel |
-| February 26 | Execution Layer                    | Lightclient             |
-| March 4     | Consensus layer                    | Alex Stokes             |
-| March 11    | Testing and security               | Mario Vega              |
-| March 18    | Roadmap and research               | Domotheus               |
+| 日期        | 主题                                | 演讲者                    |
+|-------------|-------------------------------------|--------------------------|
+| 2月19日     | EPS 和以太坊协议介绍                | Josh Davis, Mario Havel  |
+| 2月26日     | 执行层                              | Lightclient              |
+| 3月4日      | 共识层                              | Alex Stokes              |
+| 3月11日     | 测试和安全                          | Mario Vega               |
+| 3月18日     | 路线图和研究                        | Domothy                  |
 
-The second part of the program offers two distinct tracks focused on development and research with deeper dive into each topic. Detailed schedule coming soon.
+该计划的第二部分提供了两个专注于开发和研究的不同轨道，深入探讨每个主题。详细的日程安排即将公布。
 
-## Participate
+## 参与
 
-The first instance of EPF study group is starting in February 2024. It's completely open and permissionless, and it is up to each participant as to how they want to approach it. Whether you want to learn as much as possible, focus only on certain topics or share your knowledge with others, you are welcomed. Although it's opened, [you can register](https://forms.gle/7TqmryC217EPwgqr9) to help us tailor the experience better.
+EPF 学习小组的第一次实例将于 2024 年 2 月开始。它是完全开放和无权限的，每个参与者可以自行决定如何参与。无论您是想尽可能多地学习，只关注某些主题还是与他人分享您的知识，您都是受欢迎的。虽然它是开放的，[您可以注册](https://forms.gle/7TqmryC217EPwgqr9)以帮助我们更好地定制体验。
 
-> Join our community [Discord server](https://discord.gg/epfsg)
+> 加入我们的社区 [Discord 服务器](https://discord.gg/epfsg)
 
-Study group participants will collaboratively develop a comprehensive wiki, serving as an evolving knowledge base for current and future core developers. This will provide students with practical experience in contributing to open source resources, while gaining invaluable experience in documentation and community-driven development.
+学习小组的参与者将共同开发一个综合性维基，作为当前和未来核心开发人员的不断发展的知识库。这将为学生提供参与开源资源贡献的实践经验，同时获得宝贵的文档编写和社区驱动的开发经验。
 
-While this program is designed to act as a precursor to the Ethereum Protocol Fellowship, the study group is for anyone that is interested in learning more about the inner workings of the Ethereum Protocol. Those that have some general knowledge or use of Ethereum and/or blockchains as well as those that have some computer science, technical, or developer experience will get the most from this program.
+虽然该计划旨在作为以太坊协议学者的前身，但学习小组面向对了解以太坊协议内部工作原理感兴趣的任何人。那些对以太坊和/或区块链有一些一般知识或使用经验，以及那些具有一些计算机科学、技术或开发经验的人将从该计划中获益最多。
 
-## Important links
+## 重要链接
 
-- Discord server: https://discord.gg/epfsg
-- Weekly calls: https://meet.ethquokkaops.io/EPFsg
-- Sessions calendar: https://calendar.google.com/calendar/u/0?cid=ZXBmc3R1ZHlncm91cEBnbWFpbC5jb20 ([ics format](https://calendar.google.com/calendar/ical/epfstudygroup%40gmail.com/public/basic.ics))
+- Discord 服务器：<https://discord.gg/epfsg>
+- 每周讲座直播：<https://streameth.org/65cf97e702e803dbd57d823f/epf_study_group>
+- 会话日历：<https://calendar.google.com/calendar/u/0?cid=ZXBmc3R1ZHlncm91cEBnbWFpbC5jb20>（[ics 格式](https://calendar.google.com/calendar/ical/epfstudygroup%40gmail.com/public/basic.ics)）
+- EPF 邮件列表：<https://groups.google.com/a/ethereum.org/g/protocol-fellowship-group>
 
-- EPF mailing list: https://groups.google.com/a/ethereum.org/g/protocol-fellowship-group
+## 会议故障排除
 
-## Calls troubleshooting
+对于我们的每周会议，我们使用自托管的 FOSS 平台 Jitsi。尽管我们正在尽力，但一些人可能在这些通话中遇到问题，以下是一些故障排除的提示：
 
-For our weekly meetings, we are using a self-hosted FOSS platform Jitsi. Even though we are doing our best, some people might experience problems during these calls, here are few tips on troubleshooting:
+- 重新启动您的浏览器并重新加入
+- 尝试不同的浏览器（特别是如果您使用基于 Chromium 的浏览器，请尝试 Firefox，反之亦然）
+- 使用[移动 Jitsi 应用](https://jitsi.org/downloads/)而不是桌面版（您只需要将其指向我们的域名）
+- 检查您的网络和防火墙设置，确保您的浏览器允许 WebRTC
+- 访问 Jitsi 的[社区论坛](https://community.jitsi.org/)，搜索特定问题或报告您的问题
 
-- Restart your browser and rejoin
-- Try a different browser (especially if you are using a Chromium based, try Firefox and vice versa)
-- Use the [mobile Jitsi app](https://jitsi.org/downloads/) instead of desktop (you just need to point it to our domain)
-- Check your network and firewall settings, make sure your browser allows WebRTC
-- Visit Jitsi [community forum](https://community.jitsi.org/) to search for specific issue or report your problem
+## 常见问题解答
 
-## FAQ
-
-- **Will I learn to develop applications on the Ethereum blockchain?**
-    - No. This program is not focused on Solidity or development of decentralized applications. 
-- **When does it start and is the duration?**
-    - Program will start in February 2024 and continue for 10 weeks, finishing by end of April. 
-- **Am I automatically accepted to EPF after attending EPFsg**
-    - No. The study group is a great way to prepare for EPF, but it doesn't guarantee anything. However, EPF is a permissionless program, so you can always participate. 
-- **Where is the study group located?**
-    - As all core Ethereum teams, EPFsg is distributed around the globe. We will do our best to accommodate call times for the program participants.
-- **Do I need to apply and be accepted?**
-    - The program is fully open, anyone can participate. We only ask you to submit a [form](https://forms.gle/7TqmryC217EPwgqr9) to let us know about your preferences, but it doesn't have any effect on your participation. 
+- **我将学习如何在以太坊区块链上开发应用程序吗？**
+  - 不会。该计划不专注于 Solidity 或分布式应用程序的开发。
+- **它什么时候开始，持续多久？**
+  - 该计划将于 2024 年 2 月开始，持续 10 周，到 4 月底结束。
+- **参加 EPFsg 后我是否自动被接受到 EPF？**
+  - 不会。学习小组是为 EPF 做准备的一个很好的方式，但它不保证任何事情。但是，EPF 是一个无权限的计划，所以您可以随时参加。
+- **学习小组位于哪里？**
+  - 与所有核心以太坊团队一样，EPFsg 分布在全球各地。我们将尽最大努力为计划参与者安排电话时间。
+- **我需要申请并被接受吗？**
+  - 该计划完全开放，任何人都可以参加。我们只是要求您提交一个[表格](https://forms.gle/7TqmryC217EPwgqr9)，让我们了解您的偏好，但这不会影响您的参与。
