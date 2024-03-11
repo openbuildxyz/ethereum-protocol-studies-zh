@@ -8,8 +8,10 @@
   - [第 3 周](/eps/week3.md)
   - [第 4 周](/eps/week4.md)
 - 中文版本解读
-  - [第 1 周](https://openbuild.xyz/learn/courses/1029537544/3004)
-  - [第 2 周](https://openbuild.xyz/learn/courses/1029537544/3012)
+  - [第 1 周解读视频](https://openbuild.xyz/learn/courses/1029537544/3004)
+  - [第 1 周解读文档](https://openbuild.xyz/learn/courses/1029537544/3005)
+  - [第 2 周解读视频](https://openbuild.xyz/learn/courses/1029537544/3012)
+  - [第 2 周解读文档](https://openbuild.xyz/learn/courses/1029537544/3013)
 - [贡献](contributing.md)
 - **维基协议**
 - 协议
