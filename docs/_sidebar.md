@@ -6,7 +6,7 @@
   - [第 1 周](/eps/week1.md)
   - [第 2 周](/eps/week2.md)
   - [第 3 周](/eps/week3.md)
-  - [第 3 周](/eps/week4.md)
+  - [第 4 周](/eps/week4.md)
 - [贡献](contributing.md)
 - **维基协议**
 - 协议
