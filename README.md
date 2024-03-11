@@ -6,8 +6,8 @@
 
 ## 协议研究 Wiki
 
-您可以访问 wiki <https://eth-protocol-fellows.github.io/protocol-studies> or head to `/docs` for the source.
+你可以在这两个网站 <https://epf.wiki> / <http://epf.openbuild.xyz> 分别访问 Wiki 的英文或中文版。
 
-该 wiki 主要由 EPF 研究组的贡献者构建。 加入我们，了解该协议并开始[贡献](/docs/contributing.md).
+该 Wiki 中文仓库主要由 EPF 中文研究小组的贡献者构建。 加入我们，了解该协议并开始[贡献](/docs/contributing.md).
 
 ![](/docs/images/epfsg_hero.jpg)
