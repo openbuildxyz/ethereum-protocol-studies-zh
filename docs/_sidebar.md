@@ -7,6 +7,9 @@
   - [第 2 周](/eps/week2.md)
   - [第 3 周](/eps/week3.md)
   - [第 4 周](/eps/week4.md)
+- 中文版本解读
+  - [第 1 周](https://openbuild.xyz/learn/courses/1029537544/3004)
+  - [第 2 周](https://openbuild.xyz/learn/courses/1029537544/3012)
 - [贡献](contributing.md)
 - **维基协议**
 - 协议
