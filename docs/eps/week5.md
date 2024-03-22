@@ -1,10 +1,10 @@
 # 学习小组第5周 | 研究和路线图
 
-第五周将概述当前的研究前景，参加Domothy在[周一,3月18日,UTC下午4点](https://savvytime.com/converter/utc-to-germany-berlin-united-kingdom-london-ny-new-york-city-ca-san-francisco-china-shanghai-japan-tokyo-australia-sydney/mar-18-2024/4pm)的演讲。
+第五周概述了当前的研究生态系统和更新后的路线图。本周的第二部分还包括一个节点[研讨会](/eps/nodes_workshop.md)。
 
-演讲将在[StreamEth](https://streameth.org/65cf97e702e803dbd57d823f/epf_study_group)和Youtube上进行直播，会议开始前会在[Discord](https://discord.com/invite/Tg2PryVJ)中提供链接，直播时可以在Discord中进行讨论和提问。
+StreamEth和Youtube上可以看到[Domothy](https://twitter.com/domothy)的演讲。[查看幻灯片](presentations%2Fweek5.pdf)
 
-除了例行演讲之外，第5周晚些时候还将举办有关运行节点的研讨会。
+[观看视频](https://www.youtube.com/watch?v=UClaoL12W00)
 
 ## 预备阅读
 
