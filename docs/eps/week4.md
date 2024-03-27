@@ -17,15 +17,15 @@
 
 ## 大纲
 
-- [以太坊执行规范测试](https://github.com/ethereum/execution-spec-tests)
-- [Hive](https://github.com/ethereum/hive)
-- [以太坊测试](https://github.com/ethereum/tests)
-- [retesteth](https://github.com/ethereum/retesteth)
-- [rpctestgen](https://github.com/lightclient/rpctestgen)
-- [eth_tools](https://github.com/marioevz/eth_tools)
-- [Kurtosis](https://github.com/kurtosis-tech/kurtosis)
-- [FuzzyVM](https://github.com/MariusVanDerWijden/FuzzyVM)
-- [tx-fuzz](https://github.com/MariusVanDerWijden/tx-fuzz)
+- <https://github.com/ethereum/execution-spec-tests>
+- <https://github.com/ethereum/hive>
+- <https://github.com/ethereum/tests>
+- <https://github.com/ethereum/retesteth>
+- <https://github.com/lightclient/rpctestgen>
+- <https://github.com/marioevz/eth_tools>
+- <https://github.com/kurtosis-tech/kurtosis>
+- <https://github.com/MariusVanDerWijden/FuzzyVM>
+- <https://github.com/MariusVanDerWijden/tx-fuzz>
 
 ## 更多阅读和练习
 

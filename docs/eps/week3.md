@@ -33,7 +33,8 @@
 - [Gasper 论文](https://arxiv.org/pdf/2003.03052.pdf)
 - [比特位LMD GHOST：一种高效的CBC Casper分叉选择规则](https://medium.com/@aditya.asgaonkar/bitwise-lmd-ghost-an-efficient-cbc-casper-fork-choice-rule-6db924e57d1f)
 - [Eth2book，注释规范](https://eth2book.info/)
-- [关于PoS的你应该知道的事情，由Domothy](https://domothy.com/proof-of-stake/)
+- [关于PoS的你应该知道的事情 by Domothy](https://domothy.com/proof-of-stake/)
+- [削减场景解释 by Dankrad Feist](https://dankradfeist.de/ethereum/2022/03/24/run-the-majority-client-at-your-own-peril.html)
 - [Justin Drake关于信标链设计错误](https://www.youtube.com/watch?v=10Ym34y3Eoo)
 - [来自Devcon 3的Casper和共识](https://archive.devcon.org/archive/watch/3/casper-and-consensus/?tab=YouTube)
 

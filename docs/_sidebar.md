@@ -1,5 +1,5 @@
 - [主页](readme.md)
-- **学习组**
+- **学习小组**
 - [EPFsg 概述](/eps/intro.md)
 - 日程
   - [第 0 周](/eps/week0.md)
@@ -7,33 +7,39 @@
   - [第 2 周](/eps/week2.md)
   - [第 3 周](/eps/week3.md)
   - [第 4 周](/eps/week4.md)
+  - [节点工作坊](/eps/nodes_workshop.md)
+  - [第 6 周 | 开发](/eps/week6-dev.md)
+  - [第 6 周 | 研究](/eps/week6-research.md)
 - 中文版本解读
   - [第 1 周解读视频](https://openbuild.xyz/learn/courses/1029537544/3004)
   - [第 1 周解读文档](https://openbuild.xyz/learn/courses/1029537544/3005)
   - [第 2 周解读视频](https://openbuild.xyz/learn/courses/1029537544/3012)
   - [第 2 周解读文档](https://openbuild.xyz/learn/courses/1029537544/3013)
-- [贡献](contributing.md)
+- [贡献手册](contributing.md)
+
 - **维基协议**
 - 协议
   - [概述](/wiki/protocol/overview.md)
   - [历史](/wiki/protocol/history.md)
   - [协调](/wiki/protocol/pm.md)
+  - [数据结构](/wiki/protocol/data-structures.md)
   - [CS资源]
 - 执行层
   - [EL 客户端](/wiki/EL/el-clients.md)
   - [EL 规格](/wiki/EL/el-specs.md)
   - 客户端架构
-  - [评估值]
-  - [交易]
-  - [开发P2P]
+  - [EVM](/wiki/EL/evm.md)
+  - [Precompiled Contracts](/wiki/EL/precompiled-contracts.md)
+  - [Transaction](/wiki/EL/transaction.md)
+  - [DevP2P]
   - [MPT]
-  - [JSON-RPC]
-- 共识层
+  - [JSON-RPC](/wiki/EL/JSON-RPC.md)
+- [Consensus Layer](/wiki/CL/overview.md)
   - [CL 客户端](/wiki/CL/cl-clients.md)
   - [CL 规格](/wiki/CL/cl-specs.md)
   - [权益证明]
   - [信标API]
-  - [libp2p]
+  - [Networking](/wiki/CL/cl-networking.md)
   - 客户端架构
 - 开发
   - [核心开发](/wiki/dev/core.md)
@@ -75,7 +81,6 @@
 
 - **维基信息**
   - [GitHub](https://github.com/eth-protocol-fellows/protocol-studies)
-
 
 <form action="https://eth-protocol-fellows.github.io/protocol-studies/#/eps/intro" target="_blank">
   <input type="submit" value="加入协议" style="cursor: pointer;margin-top:12px;padding:8px;background-color:#FFFFFF;border:1px solid #0374B5;border-radius:.25rem;color:#0374B5;display:inline-block;text-align:center;text-decoration:none;width:250px;-webkit-text-size-adjust:none;mso-hide:all;" />
