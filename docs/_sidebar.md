@@ -10,13 +10,15 @@
   - [节点工作坊](/eps/nodes_workshop.md)
   - [第 6 周 | 开发](/eps/week6-dev.md)
   - [第 6 周 | 研究](/eps/week6-research.md)
+  - [第 7 周 | 开发](/eps/week7-dev.md)
+  - [第 7 周 | 研究](/eps/week7-research.md)
+  - [第 8 周 | 开发](/eps/week8-dev.md)
+- [贡献手册](contributing.md)
 - 中文版本解读
   - [第 1 周解读视频](https://openbuild.xyz/learn/courses/1029537544/3004)
   - [第 1 周解读文档](https://openbuild.xyz/learn/courses/1029537544/3005)
   - [第 2 周解读视频](https://openbuild.xyz/learn/courses/1029537544/3012)
   - [第 2 周解读文档](https://openbuild.xyz/learn/courses/1029537544/3013)
-- [贡献手册](contributing.md)
-
 - **维基协议**
 - 协议
   - [概述](/wiki/protocol/overview.md)
